@@ -104,3 +104,8 @@ li {
   margin-bottom: 30;
   font-size: 25px;
 }
+.line {
+	 border-left: 4px solid; /* Параметры линии */
+	 margin-left: -20px; /* Отступ слева */
+	 padding-left: 20px; /* Расстояние от линии до текста */
+	}
