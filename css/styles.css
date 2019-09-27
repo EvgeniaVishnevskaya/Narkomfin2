@@ -105,7 +105,26 @@ li {
   font-size: 25px;
 }
 .line {
-	 border-left: 4px solid; /* Параметры линии */
+	 border-left: 3px solid; /* Параметры линии */
 	 margin-left: -20px; /* Отступ слева */
 	 padding-left: 20px; /* Расстояние от линии до текста */
+	 font-style: italic;
 	}
+blockquote {
+	font-style: italic;
+	position: relative;
+	font-size: 25px;
+  margin-bottom: 30;
+}
+
+blockquote::before{
+	position: absolute;
+	left: -20px;
+
+	width: 3px;
+	height: 100%;
+
+	content: "";
+
+	background-color: #000;
+}
