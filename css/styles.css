@@ -56,7 +56,7 @@ body {
 
   font-family: 'PT Sans', sans-serif;
 
-  width: 800px;
+  width: 768px;
 
   margin: 0 auto;
 
@@ -66,43 +66,45 @@ body {
   margin-bottom: 0;
 }
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   font-weight: bold;
   margin-top: 65;
-  margin-bottom: 7;
+  margin-bottom: 10;
 
 }
 p {
-  font-size: 25px;
-  margin-bottom: 30;
+	font-size: 20px;
+	line-height: 34px;
+	margin-bottom: 23;
 }
 h1 + p {
-  color: grey;
+	line-height: 32px;
+  color: rgba(0, 0, 0, .4);
 }
 
 h2 {
   font-size: 35px;
   font-weight: bold;
   margin-top: 30;
-  margin-bottom: 7;
+  margin-bottom: 10;
 }
 h3 {
   font-size: 30px;
   font-weight: bold;
   margin-top: 30;
-  margin-bottom: 7;
+  margin-bottom: 10;
 }
 h4 {
   font-size: 25px;
   font-weight: bold;
   margin-top: 30;
-  margin-bottom: 7;
+  margin-bottom: 10;
 }
 li {
   list-style: disc;
   margin-left: 30;
   margin-bottom: 30;
-  font-size: 25px;
+  font-size: 20px;
 }
 .line {
 	 border-left: 3px solid; /* Параметры линии */
@@ -113,8 +115,11 @@ li {
 blockquote {
 	font-style: italic;
 	position: relative;
-	font-size: 25px;
+	font-size: 20px;
   margin-bottom: 30;
+	line-height: 34px;
+	margin-bottom: 7;
+	margin-top: 23;
 }
 
 blockquote::before{
@@ -127,4 +132,7 @@ blockquote::before{
 	content: "";
 
 	background-color: #000;
+}
+a {
+	color: inherit;
 }
